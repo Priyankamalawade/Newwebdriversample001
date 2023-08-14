@@ -23,6 +23,9 @@ public class Dropdown {
 		//driver.close();
 		driver.findElement(By.linkText("iPhone")).click();
 		actions.scrollToElement(driver.findElement(By.id("button-cart"))).perform();
+	
+	
+	
 	}
 
 }
